@@ -218,7 +218,6 @@ public class MethodReferenceExample {
 ---
 
 ## 🧪 Example Output
-
 ```
 Hello, Java 8!
 true
@@ -232,39 +231,3 @@ Java
 Python
 C++
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome!
-
-1. **Fork** this repository
-2. **Create** a feature branch (`feature/java8-example`)
-3. **Commit** your changes
-4. **Push** to your fork and open a **Pull Request**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-You are free to use, modify, and share the code for learning or projects.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-📧 [your.email@example.com](mailto:your.email@example.com)
-🌐 [GitHub Profile](https://github.com/yourusername)
-
----
-
-⭐ *If you found this repository useful, give it a star to support the project!*
-
-```
-
----
-
-
