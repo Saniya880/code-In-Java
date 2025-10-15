@@ -29,6 +29,7 @@ class Main{
 
         Person p1 = new Person("Saniya ", 21);
         Person p2 = new Person ("Sara",20);
+        person p3 = new Person ("shubham ",21);
         String str = p1.print();
         System.out.println(str);
         Person show = p1.display(p2);
