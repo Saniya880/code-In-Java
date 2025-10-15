@@ -1,0 +1,81 @@
+
+
+/*abstract class Employee{
+    private int id;
+    private String name;
+    private int salary;
+
+    public Employee(int id,String name)
+    {
+        this.id=id;
+        this.name=name;
+    }
+    public void setSalary(int salary){
+        this.salary = salary;
+    }
+    abstract void calculateSalary();
+    public void display()
+    {
+        System.out.println("Id of Employee - "+id);
+        System.out.println("Name of Employee - "+name);
+        System.out.println("Salary of Employee - "+salary);
+    }
+
+}
+class FullTimeEmployee extends Employee{
+    private int monthly;
+    public Full(int id,String name,int mo)
+    {
+       super(id,name);
+       this.monthly=mo;
+    }
+    
+    public void calculateSalary()
+    {
+        super.setSalary(monthly);
+    }
+
+}
+class PartTimeEmployee extends Employee{
+    private int hours;
+    private int rate;
+    private int monthly;
+
+   public PartTimeEmployee(int id, String name, int h, int r){
+      super(id,name);
+      this.hours = h;
+      this.rate = r;
+      
+   }
+   public void calculateSalary(){
+   int monthly = hours * rate;
+   super.setSalary(monthly);
+   }
+ 
+}
+class Intern extends employee{
+    private int monthly;
+    public Intern(int id, String name, int money){
+        super(id,name);
+        monthly = money;
+    }
+    public void calculateSalary(){
+        super.setSalary(monthly)''
+    }
+}
+class Main{
+    public static void main(String args[])
+    {
+        FullTimeSalary f=new Full(1,"krishna",5000);
+        f.calculateSalary();
+        f.display();
+
+        PartTimeSalary p = new PartTimeSalary(2,"abxc", 1000);
+        p.calculateSalary();
+        p.display();
+
+        Intern i = new Intern (3,"4500",4000);
+        i.calculateSalary();
+        i.display();
+    }
+}*/
